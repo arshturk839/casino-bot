@@ -22,9 +22,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if text == "🆔 Create ID":
         data = {"telegram_id": user_id, "name": update.effective_user.first_name}
         response = requests.post(CREATE_ID_URL, data=data)
-        await update.message.reply_text(f"🆔 ID Created:
-{response.text}")
-
+        await update.message.reply_text(f"🆔 ID Created: {response.text}")
     elif text == "💸 Add Money":
         await update.message.reply_text(f"Send UTR and Amount like this:
 
