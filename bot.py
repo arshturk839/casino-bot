@@ -24,10 +24,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         response = requests.post(CREATE_ID_URL, data=data)
         await update.message.reply_text(f"🆔 ID Created: {response.text}")
     elif text == "💸 Add Money":
-        await update.message.reply_text(f"Send UTR and Amount like this:
-
-utr:1234567890
-amount:500
+        await update.message.reply_text(f"Send UTR and Amount like this:\nutr:1234567890 amount:500")
 
 Send now...")
 
