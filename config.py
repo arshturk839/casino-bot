@@ -1,4 +1,4 @@
-TELEGRAM_TOKEN = "8184952662:AAEgnbz-vwQwJTG6vQ_qKdMUXUuU4FIMLzE"
+TELEGRAM_TOKEN = "7316100462:AAEdouFNetuC1Wa1afMQ8qOEXubOqfvafp0"
 
 CREATE_ID_URL = "https://hotexch10.com/api/create-id"
 DEPOSIT_URL = "https://hotexch10.com"
