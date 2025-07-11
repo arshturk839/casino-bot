@@ -26,7 +26,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif text == "💸 Add Money":
         await update.message.reply_text(f"Send UTR and Amount like this:\nutr:1234567890 amount:500")
 
-Send now...")
+await update.message.reply_text("Send now...")
 
     elif text.startswith("utr:") and "amount:" in text:
         try:
